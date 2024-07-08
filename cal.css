@@ -1,0 +1,33 @@
+table{
+    position:fixed;
+    left:35%;
+    top: 35%;
+}
+h1{
+    position:fixed;
+    font-size: 60px;
+    left: 40%;
+    top:7%
+       
+    
+}
+.h{
+    height: 90px;
+    width: 180px;
+    
+    font-size: 60px;
+}
+body{
+    background-color: cyan;
+}
+th{
+    width: 100px;
+}
+#ab{
+    height: 90px;
+    width: 733px;
+    position: fixed;
+    top: 23%;
+    left: 35%;
+    font-size: 40px;
+}

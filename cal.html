@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+        <div><h1>CALCULATOR</h1></div>
+        <table>
+            <tr id="show">
+                <th> <button id="ab" ></button></th>
+            </tr>
+            <tr id="hnu">
+                <td><button class="h" onclick= " str('7') ">7</button></td>
+                <td><button class="h" onclick= " str('8')  ">8</button></td>
+                <td><button class="h" onclick= "str('9')  ">9</button></td>
+                <td><button class="h" onclick="mul('*')">*</button></td>
+                
+            </tr>
+            <tr id="mnu">
+            <td><button class="h"  onclick= " str('4') ">4</button></td>
+            <td><button class="h"  onclick= " str('5') ">5</button></td>
+            <td><button class="h"  onclick= " str('6') ">6</button></td>
+            <td><button class="h" onclick="add('+')">+</button></td>
+            </tr>
+            <tr id="lnu">
+            <td><button class="h"  onclick= " str('1') ">1</button></td>
+            <td><button class="h"  onclick= " str('2') ">2</button></td>
+            <td><button class="h"  onclick= " str('3') ">3</button></td>
+            <td><button class="h" onclick="sub('-')" >-</button></td>
+            </tr>
+            <tr id="0nu">
+                <td><button class="h" onclick="div('/')">/</button></td>
+                <td><button class="h" onclick= " str('0').innerHTML='0' ">0</button></td>
+                <td><button class="h" onclick="cal('ab')">=</button></td>
+                <td id="C"><button class="h" onclick= " document.getElementById('ab').innerHTML=' ' ">C</button></td>
+                
+                
+            </tr>
+        </table>
+        <script src="cal.js"></script>
+    </body>
+</html>
